@@ -1,0 +1,4 @@
+name = "PyPDELib"
+uuid = "aa8da4a0-b399-4422-9f76-f1286d15ad88"
+authors = ["Juergen Fuhrmann <juergen.fuhrmann@wias-berlin.de>"]
+version = "0.1.0"
