@@ -1,4 +1,13 @@
-name = "PyPDELib"
+name = "CxxPDELib"
 uuid = "aa8da4a0-b399-4422-9f76-f1286d15ad88"
 authors = ["Juergen Fuhrmann <juergen.fuhrmann@wias-berlin.de>"]
 version = "0.1.0"
+
+[deps]
+ExtendableGrids = "cfc395e8-590f-11e8-1f13-43a2532b2fa8"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+
+[compat]
+ExtendableGrids= "0.7"
+PyCall = "1.92"
+
