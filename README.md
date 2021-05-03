@@ -7,6 +7,7 @@ This relies on a local installation of pdelib.
 
 ## How to use this package
 
+
 ### Install the C++ pdelib
 
 Check the installation  and the correct PYTHONPATH:
@@ -22,7 +23,7 @@ If this runs without errors, your pdelib installation should be found
 by Julia.
 
 
-### Add the WIAS julia registry to your Julia istalltion:
+### Add the WIAS Julia registry to your Julia istalltion:
 ````
 pkg> registry add https://github.com/WIAS-BERLIN/WIASJuliaRegistry
 ````
