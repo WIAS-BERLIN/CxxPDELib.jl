@@ -7,6 +7,7 @@ This relies on a local installation of pdelib.
 
 ## How to use this package
 
+
 ### Install the C++ pdelib
 
 Check the installation  and the correct PYTHONPATH:
@@ -22,7 +23,7 @@ If this runs without errors, your pdelib installation should be found
 by Julia.
 
 
-### Add the WIAS julia registry to your Julia istalltion:
+### Add the WIAS Julia registry to your Julia istalltion:
 ````
 pkg> registry add https://github.com/WIAS-BERLIN/WIASJuliaRegistry
 ````
@@ -53,11 +54,13 @@ f=map((x,y,z)->sin(x)*cos(y)*z, grid)
 scalarview!(viewer,grid,f; interact=true)
 ```
 
-### General acces to pdelib
+### General access to pdelib
 
-CxxPDElib initializes the python object `cxxpdelib`:
+CxxPDELib initializes the python object `cxxpdelib` which contains
+all pdelib functionality bound to python:
 
 ```
 a=cxxpdelib.asdarray(X)
 a._print()
 ```
+
